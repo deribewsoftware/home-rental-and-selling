@@ -1,0 +1,25 @@
+.side-bar{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  background-color: whitesmoke;
+  width: 50%;
+  text-align: start;
+}
+.side-bar-item{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+.side-bar-item:hover{
+  background-color: #1976d2;
+  color: white;
+}
+.side-bar-logo{
+  padding-right: 10px;
+}
+.button-float{
+  position: relative;
+padding: 5px;
+  text-align: end;
+}

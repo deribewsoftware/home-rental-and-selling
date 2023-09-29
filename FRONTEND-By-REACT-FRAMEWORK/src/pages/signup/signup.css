@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+
+.signup{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.signup-info{
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+.signup-image{
+  width: 100%;
+  height: auto;
+}
+.form_header{
+background-color: #45CAE6;
+border-radius: 4px 4px 0 0;
+padding: 1em;
+}
+.form-header h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.75em;
+  margin: 0;
+  }
+  .wrap {
+    box-shadow: 0 1px 3px rgba(0,0,0,.3);
+    margin: 15px;
+    max-width: 600px;
+    width: 100%;
+  }
+    /* .wrap form {
+      box-shadow: 0 1px 3px rgba(0,0,0,.3);
+      } */
+      .form-footer {
+        background-color: #e2e2e2;
+        border-radius: 0 0 4px 4px;
+        padding: 1em;
+        }
+        fieldset{
+          display: flex;
+          flex-direction: column;
+          margin: 10px;
+        }
+        .form-body fieldset {
+          border: none;
+          margin: 0 0 1em;
+          padding: 0;
+          }
+          .form-body fieldset:last-of-type {
+          margin-bottom: 0;
+          }
+          .form-body fieldset legend {
+          font-size: 1.25em;
+          font-weight: 700;
+          }
+          .form-body{
+            padding: 10px;
+          
+          }
+          .form-body label {
+            font-size: .8em;
+            font-weight: 700;
+            line-height: 1;
+            margin: .75em 0 .25em;
+            }
+            .form-body input,
+            .form-body select
+             {
+            background-color: #f4f4f4;
+            border: none;
+            border-radius: 4px;
+            padding: .25em;
+            }
+            .login{
+              color: blue;
+              font-weight: bold;
+              padding: 2px;
+            }
+            .form-footer input[type="submit"] {
+              background-color: #F24865;
+              border: none;
+              border-radius: 4px;
+              color: #fff;
+              padding: 1em 1.5em;
+              }

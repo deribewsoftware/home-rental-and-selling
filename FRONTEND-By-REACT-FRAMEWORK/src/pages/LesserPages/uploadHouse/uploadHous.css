@@ -1,0 +1,35 @@
+legend{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+label{
+  font-weight: bold;
+}
+
+.uploadHouse{
+  justify-content: center;
+ 
+ 
+}
+
+
+.housecard{
+ 
+  background-color: aqua;
+  max-width: 1000px;
+  width: 100%;
+  margin: 40px;
+justify-content: center;
+ 
+}
+.subcard{
+  padding: 20px;
+  max-width: 60px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  
+}

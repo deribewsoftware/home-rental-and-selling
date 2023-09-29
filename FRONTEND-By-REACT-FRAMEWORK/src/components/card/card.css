@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+/* box-shadow: 0px 20px 50px #D9DBDF;
+clip: rect(0px, 460px, 220px, 0px);
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-size: 24px; */
+.links{
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  
+}
+
+.Card{
+
+ 
+width: 100%;
+margin: 10px;
+  transform: translateY(-3px);
+
+  max-width: 350px;
+  min-width: 300px;
+ background-color: #fafafa;
+ /* margin: 50px; */
+
+ /* margin: 40px;
+ padding: 20px; */
+ border-radius:10px ;
+ -webkit-border-radius:10px ;
+ -moz-border-radius:10px ;
+ -ms-border-radius:10px ;
+ -o-border-radius:10px ;
+ color: black;
+ position: relative;
+}
+.Card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+ 
+    fill: rgb(105, 103, 103);
+  
+
+}
+.house-image{
+border-top-right-radius:10px ;
+ border-top-left-radius:10px ;
+ width: 100%;
+ height: 300px;
+
+}
+.price-size{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+font-size: 14px; 
+}
+.size,.price{
+  font-size: 11px;
+  font-weight: 400;
+  background-color: yellowgreen;
+  padding: 5px;
+  color: black;
+  
+ 
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  margin: 10px;
+ 
+}
+.price{
+  background-color: aquamarine;
+}
+.house-location{
+  display: flex;
+  justify-content: center;
+  font-family: 'Merriweather', serif;
+  font-size: 10px;
+  font-weight: lighter;
+}
+.num-likes{
+  color: lightgray;
+  font-size: 10px;
+  font-weight: lighter;
+  padding: 2px;
+  margin-left: 10px;
+}
+
+.click-here{
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 10px;
+  color: lightgrey;
+}

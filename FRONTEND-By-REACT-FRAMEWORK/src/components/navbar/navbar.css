@@ -1,0 +1,127 @@
+/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+/* Roboto,Noto Sans,Noto Sans JP,Noto Sans KR,Noto Naskh Arabic,Noto Sans Thai,Noto Sans Hebrew,Noto Sans Bengali,sans-serif; */
+/* --devsite-elevation-key-shadow-color: rgba(60,64,67,.3);
+--devsite-elevation-ambient-shadow-color: rgba(60,64,67,.15);
+--devsite-elevation-inset-shadow-color: hsla(210,6%,63%,.5); */
+.header-logo{
+  display: flex;
+  align-items: center;
+
+}
+.header_title{
+  
+ text-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.Bete{ color: burlywood;}
+.Home{ color: white}
+.Rental{color: red;}
+
+
+
+
+.navigation{
+  position: sticky;
+  top: 0px;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  z-index: 4;
+}
+.Hnavbar{
+ display: flex;
+ justify-content: space-around;
+ padding: 0px;
+ margin: 0px;
+ height: 50px;
+
+ align-items: center;
+ 
+ 
+
+}
+.search-button{
+  padding: 5px;
+}
+
+
+
+.show{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  background-color: #1976d2;
+}
+.bar-item-logo{
+  /* padding-right: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 10px; */
+}
+.navbar-item ,.navbar-item-btn{
+
+  color:white;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+ 
+  
+  
+}
+.navbar-item{
+  padding: 12px 4px 11px 4px;
+}
+.navbar-item-btn{
+  padding: 10px 0;
+
+}
+.navbar-item:hover,.navbar-item-btn:hover{
+  background-color: white;
+  color: #1976d2;
+  
+}
+.navBar{
+  display: flex;
+  justify-content: space-between;
+}
+.search-btn,.menu-btn{
+  visibility: hidden;
+  display: none;
+  
+}
+.mobile-nav{
+  position: absolute;
+  width: 100%;
+  background-color: #1976d2;
+  text-align: center;
+  justify-content: start;
+  justify-items: start;
+  display: none;
+}
+@media only screen and (max-width: 900px) {
+  .navigation{
+    position: sticky;
+    top: 0px;
+  }
+  .navbar-item,.search-button,.navbar-item-btn{
+    display: none;
+    
+   
+    
+  }
+  .header_title{
+    font-size: 20px;
+  }
+  .search-btn,.menu-btn{
+    visibility: visible;
+    display: block;
+   
+  }
+  .mobile-nav{
+    display: block;
+  }
+  
+}

@@ -1,0 +1,69 @@
+.Bete{ color: burlywood;}
+.Home{ color: white}
+.Rental{color: red;}
+
+
+.header{
+  background-color: #1976d2;
+  /* background-color: #039be5;; */
+  /* background-color: #0099ff; */
+ 
+  padding-bottom: 30px;
+  /* background-image: linear-gradient( blue, blue,white); */
+ 
+}
+.header_title{
+  text-align: start;
+  width: 20%;
+
+  margin-top: 50px;
+ text-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.header-logo{
+  width: 100px;
+padding-right: 50px;
+
+ 
+}
+.logo{
+  display: flex;
+  justify-content: space-evenly;
+  
+ 
+}
+.search{
+width: 100%;
+ 
+  padding-top: 50px;
+  padding-left: 50px;
+ 
+}
+.search-button{
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  border-top:3px solid white;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: pink;
+}
+.search-item{
+  max-inline-size: 600px;
+  inline-size:500px;
+
+  padding: 10px;
+  background-color: #005bea;
+  border: 3px solid white;
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}

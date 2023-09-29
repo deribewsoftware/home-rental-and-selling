@@ -1,0 +1,38 @@
+.profileData{
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  background-color: #B3E5FC;
+}
+
+.userCard{
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+  
+flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+.user-profile div{
+  padding: 10px;
+  font-weight: bold;
+}
+.user-profile{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  max-width: 600px;
+  height: 400px;
+ padding: 20px;
+  width: 100%;
+  background-color: #29B6F6;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.user-role{
+  align-items: center;
+    text-align: center;
+    border-left:4px solid #EF5350  ;
+  }

@@ -1,0 +1,18 @@
+.links{
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.upload-house{
+  background-color: #EF5350;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+  padding: 20px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}

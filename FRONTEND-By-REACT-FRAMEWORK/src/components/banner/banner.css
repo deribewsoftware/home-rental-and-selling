@@ -1,0 +1,40 @@
+.image-Banner{
+  width: 100%;
+  height: 300px;
+ 
+  background-color: #1976d2;
+}
+.banner{
+opacity: 1;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+  
+  background-color: #1976d2;
+
+}
+.qoute div{
+  font-family: Montserrat;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  
+}
+.qoute{
+ 
+ font-family: Lato;
+  padding: 10px 2px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  
+ 
+  margin-top: 24px;
+}
+.left-title,.right-title{
+  
+  align-items: center;
+
+}

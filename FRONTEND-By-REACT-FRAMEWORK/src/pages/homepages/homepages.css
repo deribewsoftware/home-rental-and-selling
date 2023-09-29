@@ -1,0 +1,17 @@
+.homepage{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  gap: 50px;
+  flex-direction: row-reverse;
+  margin: 20px 100px;
+  justify-content: space-around;
+}
+.flex{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-top: 0;
+  padding-top: 0;
+ column-gap: 20px;
+}
